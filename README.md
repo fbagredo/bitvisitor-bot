@@ -6,11 +6,11 @@ Description
 
 Build
 =====
-	sudo ./build
+		sudo ./build
 
 Usage
 =====
-	python ./pyvisitor.py -a "your bitcoin wallet address here"
+		python ./pyvisitor.py -a "your bitcoin wallet address here"
 
 Author
 ======
