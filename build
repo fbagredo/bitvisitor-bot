@@ -1,0 +1,26 @@
+#########################################################
+#	Bitvisitor.com python bot build script		#
+#	Author: Fadi Hanna Al-Kass			#
+#########################################################
+
+
+if [ `id -u` -ne 0 ]; then
+	echo "This script requires root privileges to execute"
+	exit
+fi
+
+
+echo "Downloading the BeautifulSoup package"
+wget -q http://pypi.python.org/packages/source/B/BeautifulSoup/BeautifulSoup-3.2.1.tar.gz#md5=44656527ef3ac9874ac4d1c9f35f70ee > /dev/null
+
+echo "Untarring BeautifulSoup"
+tar xvf BeautifulSoup-3.2.1.tar.gz > /dev/null
+
+echo "Installing BeautifulSoup"
+python setup.py install > /dev/null
+
+echo "Installing Python PIL"
+apt-get install -y python-imaging > /dev/null
+
+echo "Installing ImageTk"
+apt-get install -y python-imaging-tk > /dev/null
