@@ -15,7 +15,7 @@ config.txt structure (TAB is used as separator):
 Bitcoin's address	1FStudcL2ZkAweuC5F6wg6vz9sHEmg8oT3
 Captcha brotherhood user	your captchabrotherhood user
 Captcha brotherhood password	your captchabrotherhood Pass	
-Instalation path	C:\YOURiNSTALATIONPATH\BitVisitorBot\
+Instalation path	C:\YOURiNSTALATIONPATH\bitvisitor-bot\
 MInimum profit	.0
 Waiting time for internet conection	60
 Waiting for reach minimum profit	120
