@@ -1,7 +1,7 @@
 Bitcoin's address	1FStudcL2ZkAweuC5F6wg6vz9sHEmg8oT3
 Captcha brotherhood user	yourcaptchabrotherhooduser
 Captcha brotherhood password	yourcaptchabortherhoodpass
-Instalation path	C:\Yourinstallationpath\BitVisitorBot\
+Instalation path	C:\Yourinstallationpath\bitvisitor-bot\
 MInimum profit	.0
 Waiting time for internet conection	60
 Waiting for reach minimum profit	120
