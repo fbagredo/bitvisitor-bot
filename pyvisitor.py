@@ -116,8 +116,12 @@ class PyVisitor:
         if fderror.readline()[:10] == 'No Credits':
             return False
         else:
-            fd = open( "output.txt" )
-            return fd.readline()[23:]
+            try:
+                fd = open( "output.txt" )
+                return fd.readline()[23:]
+            except IOError:
+                print 'Please check the installation path in config.txt'
+                return 'Error Config.txt'
         
  
     def __wait(self, soup):
@@ -203,6 +207,8 @@ class PyVisitor:
                     ferror.write('There are enough credits')
                     ferror.close()
                     continue
+                elif captcha.get(0) == 'Error Config.txt':
+                    break
                 cParams = urlencode({'ct_captcha':captcha[0], 'addr':self.__addr})
                 
                 try:
