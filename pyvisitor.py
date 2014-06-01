@@ -21,7 +21,7 @@ Waiting time for internet conection	60
 Waiting for reach minimum profit	120
 Waiting time for captchabrotherhood credits	120
 
-usage: python BitVisitorBot.py 
+usage: python pyvisitor.py 
  
 optional arguments:
  -h, --help                      Show this help message and exit.
